@@ -1,0 +1,97 @@
+body {
+    background-color: black !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#marquesina_img {
+    width: 354px;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    background-color: #27357C;
+}
+
+.container,
+.col-md-1,
+.col-md-10,
+.row,
+header {
+    padding: 0 !important;
+    margin: 0 auto !important;
+}
+
+#area_juego {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    background-image: url(../img/fondo.gif);
+    width: 354px;
+    min-width: 354px;
+    margin: 0;
+}
+
+#score {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+}
+
+#puntos {
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    margin-left: 70px;
+}
+
+#txt {
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    font-weight: bold;
+    opacity: .6;
+    text-align: center;
+    width: 340px;
+    position: absolute;
+    margin-top: 100px;
+}
+
+button {
+    width: 80px;
+    height: 60px;
+}
+
+#instrucciones {
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    background-color: cornflowerblue;
+    text-align: center;
+    width: 354px;
+    min-width: 354px;
+    margin: 0 auto;
+}
+
+#pie {
+    background-color: #27357C;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.link {
+    padding: 10px;
+}
+
+#copyright {
+    color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    margin-top: 10px;
+}

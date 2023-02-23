@@ -1,0 +1,17 @@
+.jugador {
+    background-image: url(../img/jugador.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.enemigo {
+    background-image: url(../img/enemigo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bala {
+    background-image: url(../img/bala.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
